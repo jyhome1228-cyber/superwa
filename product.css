@@ -124,3 +124,9 @@
 .detail-modal-box>button:last-child{border-radius:4px}
 .product-detail-page .search-panel{border-radius:7px}
 @media(max-width:390px){.detail-coupon{gap:10px}.detail-content{padding:50px 20px 0}}
+
+/* Sticky product detail header, with section tabs below it */
+.product-detail-page .detail-header{position:sticky!important;top:0!important;z-index:33!important;background:#fff!important;box-shadow:0 1px 0 #f0e8ec}
+.product-detail-page .detail-tabs{top:62px!important;z-index:30!important}
+.product-detail-page .store{overflow:visible!important}
+.product-detail-page .detail-content,.product-detail-page .detail-info-section{scroll-margin-top:130px}
