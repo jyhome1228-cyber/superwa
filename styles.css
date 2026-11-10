@@ -132,3 +132,21 @@ body{background:#fafafa;color:var(--ink)}
 @media(max-width:950px){.right-promo{display:none}}
 @media(max-width:760px){.hero{height:min(125vw,630px)}.slide-apple .hero-copy{top:50px}.slide-apple .hero-copy h1{font-size:33px}.line-promo>img{height:270px}.line-promo{min-height:270px}}
 @media(max-width:390px){.hero{height:490px}.slide-apple .hero-copy h1{font-size:30px}.slide-apple .hero-copy{top:42px}.product-row{grid-auto-columns:51%}}
+
+/* Premium slider indicator: understated, no pill or opaque box */
+.hero-pagination{left:auto!important;right:24px!important;bottom:23px!important;display:flex!important;flex-direction:row!important;align-items:center!important;gap:13px!important;background:transparent!important;border:none!important;border-radius:0!important;padding:0!important;box-shadow:none!important;backdrop-filter:none!important;text-shadow:none!important;color:#fff!important;font-weight:600!important;font-size:10px!important;letter-spacing:.12em!important}
+.hero-pagination #slideNumber{display:block;font-variant-numeric:tabular-nums;white-space:nowrap;text-shadow:0 1px 7px #0005}
+.hero-pagination .dots{display:flex;align-items:center;gap:4px!important}
+.hero-pagination .dots button{height:2px!important;width:20px!important;background:#ffffff80!important;border-radius:0!important;box-shadow:0 1px 4px #0002;transition:background .2s,width .2s}
+.hero-pagination .dots button.active{width:28px!important;height:2px!important;background:#fff!important;border-radius:0!important}
+/* Onbrix-style right editorial banners — full bleed artwork and embedded copy */
+.right-promo{gap:16px!important}
+.side-banner{height:410px;min-height:0;position:relative;display:block;border:none!important;border-radius:0!important;background:#ffe6ef;isolation:isolate}
+.side-banner img{position:absolute!important;inset:0;width:100%!important;height:100%!important;object-fit:cover!important;object-position:center 58%!important;display:block}
+.side-banner:after{content:"";position:absolute;inset:0;z-index:0;background:linear-gradient(180deg,rgba(255,244,248,.96) 0%,rgba(255,244,248,.85) 27%,rgba(255,244,248,.0) 60%);pointer-events:none}
+.side-banner-copy{position:absolute!important;z-index:2;top:24px;left:24px;right:24px;bottom:auto;background:transparent!important;padding:0!important;display:flex;flex-direction:column;align-items:flex-start;gap:8px!important}
+.side-banner-copy span{font-size:10px!important;letter-spacing:.16em;color:#cc4172!important}
+.side-banner-copy strong{font-size:27px!important;line-height:1.38!important;letter-spacing:-.065em!important;color:#392b32}
+.side-banner-copy small{margin-top:3px;font-size:11px!important;color:#836675!important}
+@media(min-width:951px) and (max-width:1100px){.side-banner{height:345px}.side-banner-copy{top:18px;left:18px;right:18px}.side-banner-copy strong{font-size:23px!important}}
+@media(max-width:950px){.right-promo{display:none!important}}
