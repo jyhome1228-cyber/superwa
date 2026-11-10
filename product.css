@@ -65,3 +65,29 @@
 .detail-modal-box>button:last-child{background:#FF568F;color:#fff;border:none;padding:12px 40px;font-weight:700}
 .product-detail-page .search-overlay{z-index:70}
 @media(max-width:390px){.detail-purchase{padding:25px 20px}.detail-purchase h1{font-size:20px}.detail-bottom{padding:9px 10px calc(9px + env(safe-area-inset-bottom));gap:6px;grid-template-columns:50px 1fr 1.1fr}.detail-bottom button{font-size:13px}.detail-brand-row{font-size:9px}.detail-coupon{gap:7px}}
+
+/* Product detail readability and hierarchy */
+.product-detail-page{color:#272127}
+.detail-brand-row{font-size:11px!important;letter-spacing:.08em!important;color:#795c6a!important;font-weight:650}
+.detail-purchase h1{font-size:25px!important;line-height:1.4!important;font-weight:750}
+.detail-sub{font-size:13px!important;color:#62595e!important}
+.detail-price small,.detail-shipping>div span{font-size:13px!important;color:#6b6067!important}
+.detail-price strong{font-size:23px!important}
+.detail-coupon span{font-size:11px!important;letter-spacing:.1em!important}
+.detail-coupon strong{font-size:16px!important}
+.detail-coupon small{font-size:12px!important;color:#776c72!important}
+.detail-coupon button{font-size:12px!important}
+.detail-quality>div span{font-size:13px!important}
+.detail-quality strong{font-size:12px!important;color:#6b5d65!important}
+.detail-shipping>div strong{font-size:13px!important}
+.detail-shipping p,.detail-content p,.detail-info-section p{font-size:13px!important;color:#695f65!important;line-height:1.75!important}
+.detail-tabs a{font-size:13px!important}
+.detail-content>span{font-size:11px!important}
+.detail-content h2{font-size:29px}
+.detail-section-head span{font-size:12px!important}
+.detail-end p{font-size:11px!important}
+@media(max-width:390px){
+ .detail-purchase h1{font-size:22px!important}
+ .detail-brand-row{font-size:10px!important}
+ .detail-price strong{font-size:21px!important}
+}
