@@ -424,3 +424,12 @@ html{scroll-padding-top:20px}
 @media(max-width:760px){.store{max-width:520px}.hero{max-height:630px}.section-head h2{font-size:22px}.listing-grid{gap:29px 13px}}
 @media(max-width:390px){.top-notice{font-size:10px}.section-head h2{font-size:20px}.footer-nav{gap:15px}}
 @media(prefers-reduced-motion:reduce){.product-photo img,.listing-photo img,.review-picture img,.side-banner img,.category-icons .cat-circle{transition:none!important;transform:none!important}}
+
+/* Sticky storefront header + category navigation while scrolling */
+:root{--masidda-sticky-header:83px}
+.site-frame,.store{overflow:visible!important}
+.header{position:sticky!important;top:0!important;z-index:32!important;height:var(--masidda-sticky-header)!important;min-height:0!important;background:#fff!important;box-shadow:0 1px 0 #eee7eb}
+.main-nav{position:sticky!important;top:var(--masidda-sticky-header)!important;z-index:31!important;background:#fff!important;box-shadow:0 1px 0 #efe8ec}
+.top-notice{position:relative;z-index:1}
+@media(max-width:760px){:root{--masidda-sticky-header:78px}}
+@media(max-width:390px){:root{--masidda-sticky-header:66px}}
