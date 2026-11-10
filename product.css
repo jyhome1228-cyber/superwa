@@ -1,0 +1,67 @@
+/* MASIDDA product details / UI demo */
+.product-detail-page .store{padding-bottom:86px}
+.detail-header{height:62px;background:#fff;display:flex;align-items:center;gap:13px;padding:0 19px;border-bottom:1px solid #f0e9ec}
+.detail-header button,.detail-header a{display:grid;place-items:center;border:0;background:transparent;width:36px;height:36px;padding:5px;color:#2c2629}
+.detail-header svg{width:23px;height:23px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.detail-header-spacer{flex:1}
+.detail-hero{position:relative;aspect-ratio:1/1.11;background:#fff6f9;overflow:hidden}
+.detail-hero img{display:block;width:100%;height:100%;object-fit:cover}
+.detail-img-mark{position:absolute;left:18px;top:20px;background:#ffffffdb;color:#f04784;font-size:9px;font-weight:700;letter-spacing:.13em;padding:8px 10px}
+.detail-img-count{position:absolute;right:16px;bottom:16px;color:#fff;background:#3e2d32a1;padding:5px 12px;border-radius:20px;font-size:11px}
+.detail-purchase{padding:28px 25px 31px}
+.detail-brand-row{display:flex;justify-content:space-between;align-items:center;gap:10px;color:#8b8186;font-size:10px;letter-spacing:.1em}
+.detail-social{display:flex;gap:9px}
+.detail-social button{background:transparent;border:0;padding:4px;color:#443940}
+.detail-social svg,.detail-bottom-wish svg{width:23px;height:23px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.detail-social button.liked,.detail-bottom-wish.liked{color:#FF568F}
+.detail-purchase h1{font-size:23px;line-height:1.45;letter-spacing:-.065em;margin:15px 0 8px;font-weight:750}
+.detail-sub{font-size:12px;color:#837a7d;line-height:1.7;margin:0}
+.detail-price{display:flex;justify-content:space-between;align-items:baseline;padding:25px 0 22px;border-bottom:1px solid #f3e9ed}
+.detail-price small{font-size:12px;color:#91888c}
+.detail-price strong{font-size:24px;letter-spacing:-.06em}
+.detail-coupon{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:21px 0;border-bottom:1px solid #f3e9ed}
+.detail-coupon>div{display:flex;flex-direction:column;gap:5px}
+.detail-coupon span{font-size:9px;letter-spacing:.15em;color:#e14b81;font-weight:700}
+.detail-coupon strong{font-size:15px}
+.detail-coupon small{font-size:10px;line-height:1.6;color:#94898f}
+.detail-coupon button{flex:none;background:#fff;border:1px solid #d9cbd0;padding:12px 10px;font-size:11px;font-weight:700}
+.detail-quality{display:flex;gap:13px;padding:23px 18px;background:#fff0f5;margin:24px 0 22px;align-items:center}
+.quality-icon{background:#fff;color:#FF568F;width:40px;height:40px;display:grid;place-items:center;border-radius:50%;font-size:24px;flex:none}
+.detail-quality>div{display:flex;flex-direction:column;gap:6px}
+.detail-quality>div span{font-size:12px;font-weight:700}
+.detail-quality strong{font-size:11px;font-weight:500;color:#786a70;line-height:1.6}
+.detail-shipping{border-top:1px solid #f1e6eb;padding:20px 0}
+.detail-shipping>div{display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:12px}
+.detail-shipping>div span{color:#857a80}
+.detail-shipping>div strong{font-size:12px;font-weight:650}
+.detail-shipping p{color:#979093;font-size:11px;line-height:1.65;margin:12px 0 0}
+.detail-tabs{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid #f0e7eb;border-bottom:1px solid #f0e7eb;background:#fff;position:sticky;top:0;z-index:4}
+.detail-tabs a{text-align:center;padding:17px 0;font-size:12px;font-weight:650}
+.detail-tabs a:first-child{color:#FF568F;border-bottom:2px solid #FF568F}
+.detail-content{text-align:center;padding:58px 25px 10px}
+.detail-content>span{color:#FF568F;font-size:10px;letter-spacing:.17em;font-weight:700}
+.detail-content h2{font-size:30px;line-height:1.35;letter-spacing:-.07em;margin:20px 0}
+.detail-content p{font-size:12px;line-height:1.8;color:#847b7f;margin:0 0 33px}
+.detail-content img{width:100%;height:auto;display:block}
+.detail-info-section{padding:35px 25px;border-bottom:1px solid #f3edf0}
+.detail-info-section h2{font-size:18px;letter-spacing:-.05em;margin:0 0 12px}
+.detail-info-section p{font-size:12px;color:#8a8185;line-height:1.75}
+.detail-section-head{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.detail-section-head span{font-size:11px;color:#FF568F}
+.detail-end{text-align:center;background:#fff4f8;padding:42px 20px 110px}
+.detail-end img{width:150px;height:auto}
+.detail-end p{font-size:10px;letter-spacing:.12em;color:#e35a88}
+.detail-bottom{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:min(520px,100%);z-index:15;background:#fff;border-top:1px solid #eee3e8;display:grid;grid-template-columns:54px 1fr 1.16fr;gap:9px;padding:11px 15px calc(11px + env(safe-area-inset-bottom))}
+.detail-bottom button{height:49px;border-radius:5px;font-weight:750;font-size:15px;white-space:nowrap}
+.detail-bottom-wish{background:white;border:1px solid #e9dfe3;display:grid;place-items:center;color:#40373b}
+.detail-bottom-gift{background:#fff;border:1px solid #3d3539;color:#282328}
+.detail-bottom-buy{background:#FF568F;border:1px solid #FF568F;color:white}
+.detail-modal[hidden],#detailSearchOverlay[hidden]{display:none}
+.detail-modal{position:fixed;inset:0;background:#17101891;z-index:60;display:grid;place-items:center;padding:20px}
+.detail-modal-box{background:#fff;width:min(360px,100%);padding:32px 25px;position:relative;text-align:center}
+.detail-modal-box>button:first-child{position:absolute;right:13px;top:8px;border:0;background:none;font-size:27px}
+.detail-modal-box strong{font-size:19px}
+.detail-modal-box p{font-size:12px;line-height:1.8;color:#8a8084;margin:18px 0 25px}
+.detail-modal-box>button:last-child{background:#FF568F;color:#fff;border:none;padding:12px 40px;font-weight:700}
+.product-detail-page .search-overlay{z-index:70}
+@media(max-width:390px){.detail-purchase{padding:25px 20px}.detail-purchase h1{font-size:20px}.detail-bottom{padding:9px 10px calc(9px + env(safe-area-inset-bottom));gap:6px;grid-template-columns:50px 1fr 1.1fr}.detail-bottom button{font-size:13px}.detail-brand-row{font-size:9px}.detail-coupon{gap:7px}}
