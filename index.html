@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fffaf9">
+  <title>마시따 MASIDDA | 좋은 과일의 기준</title>
+  <meta name="description" content="마시따 프리미엄 과일 쇼핑몰 UI 개발 시안. 실제 주문 기능은 연결되지 않았습니다.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <div class="site-shell">
+    <aside class="brand-rail" aria-label="브랜드 프로모션">
+      <div class="rail-top"><span>MASIDDA SELECTS</span><span>EST. 2026</span></div>
+      <div class="rail-center">
+        <p class="eyebrow">FRESHNESS, CURATED.</p>
+        <h1>좋은 과일을<br>고르는 기준<span class="pink-dot">.</span></h1>
+        <p class="rail-desc">정성껏 고른 한 알부터<br>마음을 담은 선물까지.<br>매일의 맛있는 순간을 전합니다.</p>
+        <span class="rail-wordmark">masidda<span>.</span></span>
+      </div>
+      <div class="rail-bottom"><span>GOOD FRUIT. GOOD MOMENT.</span><span>↗</span></div>
+      <div class="rail-orbit orbit-one"></div><div class="rail-orbit orbit-two"></div>
+    </aside>
+    <main class="storefront" id="top">
+      <div class="demo-note">DESIGN PREVIEW · 구매 기능 미연동</div>
+      <div class="announcement">마시따의 신선한 과일을 만나보세요 <span>↗</span></div>
+      <header class="header">
+        <button class="icon-button" type="button" aria-label="메뉴 열기" id="menuBtn"><span class="hamburger"></span></button>
+        <a href="#top" class="logo" aria-label="마시따 홈">masidda<span>.</span></a>
+        <div class="header-actions">
+          <button class="icon-button" type="button" aria-label="검색" id="searchBtn"><svg viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.5"/><path d="m16 16 5 5"/></svg></button>
+          <button class="icon-button" type="button" aria-label="장바구니" id="cartBtn"><svg viewBox="0 0 24 24"><path d="M5 8h14l-1 12H6L5 8Z"/><path d="M9 9V6a3 3 0 0 1 6 0v3"/></svg></button>
+        </div>
+      </header>
+      <nav class="nav" aria-label="상품 메뉴"><a href="#best">베스트</a><a href="#season">제철과일</a><a href="#gift">선물세트</a><a href="#story">마시따 이야기</a></nav>
+      <section class="hero" aria-label="메인 배너">
+        <div class="hero-copy">
+          <span class="hero-kicker">THE TASTE OF GOOD FRUIT</span>
+          <h2>맛있는 순간,<br>마시따.</h2>
+          <p>좋은 과일에는 이유가 있습니다.</p>
+          <a class="text-link" href="#best">컬렉션 둘러보기 <span>↗</span></a>
+        </div>
+        <div class="fruit-display" aria-hidden="true"><span class="fruit fruit-back"></span><span class="fruit fruit-front"></span><span class="fruit-leaf"></span><span class="fruit-glow"></span></div>
+        <div class="hero-indicator"><span>01</span><span class="indicator-bar"></span><span>03</span></div>
+      </section>
+      <section class="categories" aria-label="빠른 카테고리">
+        <a href="#season"><span class="category-icon category-apple">●</span><span>제철과일</span></a>
+        <a href="#gift"><span class="category-icon category-gift">✧</span><span>선물세트</span></a>
+        <a href="#best"><span class="category-icon category-best">★</span><span>베스트</span></a>
+        <a href="#story"><span class="category-icon category-story">m.</span><span>브랜드</span></a>
+      </section>
+      <section class="section products" id="best">
+        <div class="section-heading"><div><p class="eyebrow">MASIDDA'S PICK</p><h2>마시따 추천 과일</h2><p class="section-sub">엄선한 맛을 가장 먼저 만나보세요.</p></div><a href="#season" class="more">더보기 ↗</a></div>
+        <div class="product-grid">
+          <article class="product-card"><div class="product-image img-apple"><span class="pill">BEST</span><span class="produce produce-apple"></span></div><div class="product-info"><span class="product-type">PREMIUM FRUIT</span><h3>당도선별 프리미엄 사과</h3><p>매일을 특별하게 만드는 달콤함</p><div class="price">가격 준비 중</div></div></article>
+          <article class="product-card"><div class="product-image img-peach"><span class="pill">SEASONAL</span><span class="produce produce-peach"></span></div><div class="product-info"><span class="product-type">SEASONAL PICK</span><h3>제철 과일 셀렉션</h3><p>지금 가장 맛있는 계절의 맛</p><div class="price">가격 준비 중</div></div></article>
+        </div>
+      </section>
+      <section class="statement" id="story"><p class="eyebrow">OUR PHILOSOPHY</p><h2>맛있는 건,<br>고르는 순간부터 다르니까.</h2><p>좋은 산지에서 시작해<br>받는 순간까지 기분 좋은 과일.</p><a href="#gift">마시따 알아보기 ↗</a></section>
+      <section class="section" id="season">
+        <div class="section-heading"><div><p class="eyebrow">IN SEASON</p><h2>제철의 가장 좋은 순간</h2><p class="section-sub">계절이 주는 신선함을 담았습니다.</p></div></div>
+        <div class="feature-panel"><div><span>SEASONAL COLLECTION</span><h3>오늘 더 맛있는<br>과일을 만나보세요.</h3><a href="#best">상품 둘러보기 ↗</a></div><span class="feature-fruit" aria-hidden="true"></span></div>
+      </section>
+      <section class="section gift-section" id="gift"><div class="section-heading"><div><p class="eyebrow">A GIFT OF TASTE</p><h2>마음을 전하는 선물</h2><p class="section-sub">특별한 날, 좋은 마음을 담아.</p></div></div><div class="gift-banner"><span>MASIDDA GIFT COLLECTION</span><h3>맛있는 마음을<br>선물하세요.</h3><span class="gift-ribbon">✳</span></div></section>
+      <section class="section reviews"><div class="section-heading"><div><p class="eyebrow">CUSTOMER VOICE</p><h2>마시따를 경험한 이야기</h2></div></div><div class="review-placeholder"><span>✦ ✦ ✦ ✦ ✦</span><p>실제 고객 후기는 카페24 리뷰 모듈과 연동 예정입니다.</p></div></section>
+      <footer class="footer"><a class="footer-logo" href="#top">masidda<span>.</span></a><p>좋은 과일로 채우는 맛있는 일상.</p><div class="footer-links"><a href="#story">브랜드 소개</a><a href="#gift">상품 안내</a><a href="#top">TOP ↑</a></div><small>UI CONCEPT ONLY · 사업자 정보 및 고객센터는 운영몰에 맞춰 적용</small></footer>
+      <nav class="bottom-nav" aria-label="모바일 빠른 메뉴"><a href="#top">⌂<span>홈</span></a><a href="#season">▦<span>카테고리</span></a><a href="#best">♡<span>베스트</span></a><button type="button" id="bottomCart">▢<span>장바구니</span></button></nav>
+    </main>
+  </div>
+  <div class="drawer-backdrop" id="backdrop" hidden></div>
+  <aside class="drawer" id="drawer" aria-hidden="true"><div class="drawer-head"><b>masidda<span>.</span></b><button type="button" id="closeMenu" aria-label="닫기">×</button></div><a href="#best">베스트</a><a href="#season">제철과일</a><a href="#gift">선물세트</a><a href="#story">브랜드 이야기</a><p>GOOD FRUIT, GOOD MOMENT.</p></aside>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
