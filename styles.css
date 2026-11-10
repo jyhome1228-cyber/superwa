@@ -316,3 +316,50 @@ body.search-open{overflow:hidden}
 .product-link .product-card,.product-link .listing-card{display:block;min-width:0;height:100%}
 .product-link:hover .product-photo img,.product-link:hover .listing-photo img{transform:scale(1.03)}
 .product-link:focus-visible{outline:2px solid #FF568F;outline-offset:3px}
+
+/* MASIDDA typography polish, Nov 2026 */
+:root{--text-primary:#272127;--text-secondary:#5f565c;--text-muted:#756b72;--hairline:#eee8eb}
+body{color:var(--text-primary);font-size:14px;line-height:1.58}
+.main-nav a{color:#393239!important;font-size:14px!important}
+.main-nav a.active{color:#FF568F!important}
+.section-head small,.listing-heading>span,.review-heading .section-label,.story-inner small,.line-promo-copy>span,.side-banner-copy>span{font-size:11px!important;font-weight:750!important;line-height:1.5;letter-spacing:.10em!important}
+.section-head h2,.listing-heading h2{line-height:1.32;letter-spacing:-.05em}
+.section-head h2{font-size:23px}
+.section-sub,.section-intro,.section-head>div>p,.listing-heading p{font-size:13px!important;line-height:1.7!important;color:#625a60!important;letter-spacing:-.015em}
+.section-head>a,.review-more{font-size:12px!important;font-weight:650;color:#655c62!important}
+.product-card h3,.listing-meta h3{font-size:15px!important;line-height:1.48!important;letter-spacing:-.04em;font-weight:700}
+.product-card p,.listing-meta>p{font-size:12px!important;line-height:1.65!important;color:#655c62!important}
+.product-card .price-placeholder{font-size:12px!important;line-height:1.55;color:#7d5667!important;letter-spacing:-.01em}
+.listing-pricing{margin:12px 0 7px}
+.listing-pricing strong{font-size:15px;letter-spacing:-.03em}
+.listing-benefit span{font-size:11px!important;padding:5px 8px!important;font-weight:650!important;color:#9a3663!important;background:#fff0f5!important}
+.listing-tag,.tag{font-size:10px!important;font-weight:700}
+.listing-section{padding-top:42px}
+.listing-grid{row-gap:32px}
+.category-icons a{font-size:12px!important;color:#474047!important;font-weight:650!important}
+.story-inner h2{font-size:30px;line-height:1.42}
+.story-inner p{font-size:13px!important;line-height:1.9!important;color:#675c63!important}
+.story-inner a{font-size:12px!important;font-weight:650}
+.line-promo .line-promo-copy strong{font-size:25px}
+.line-promo .line-promo-copy small{font-size:12px!important;line-height:1.6!important;color:#594850!important}
+.hero-copy>span{font-size:11px!important;letter-spacing:.11em!important}
+.hero-copy p{font-size:13px!important;line-height:1.65}
+.review-heading p,.review-detail p{font-size:12px!important;color:#61595e!important}
+.review-detail h3{font-size:15px!important}
+.review-author,.review-demo-label{font-size:11px!important;line-height:1.5!important;color:#766d72!important}
+.footer-brand p,.footer-service p{font-size:13px!important;line-height:1.7}
+.footer-kicker{font-size:11px!important}
+.footer-business summary{font-size:14px}
+.footer-business div{font-size:12px!important;line-height:1.75}
+.footer-nav a,.footer-copyright{font-size:12px!important}
+.footer-demo{font-size:11px!important;line-height:1.6}
+.bottom-navigation-item{font-size:12px!important}
+.listing-meta{padding-top:13px}
+@media(max-width:390px){
+ .section-head h2{font-size:21px}
+ .product-card h3,.listing-meta h3{font-size:13px!important}
+ .product-card p,.listing-meta>p{font-size:11.5px!important}
+ .category-icons a{font-size:11px!important}
+ .main-nav a{font-size:12px!important}
+ .bottom-navigation-item{font-size:11px!important}
+}
