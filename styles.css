@@ -150,3 +150,42 @@ body{background:#fafafa;color:var(--ink)}
 .side-banner-copy small{margin-top:3px;font-size:11px!important;color:#836675!important}
 @media(min-width:951px) and (max-width:1100px){.side-banner{height:345px}.side-banner-copy{top:18px;left:18px;right:18px}.side-banner-copy strong{font-size:23px!important}}
 @media(max-width:950px){.right-promo{display:none!important}}
+
+/* Review photo cards and official signature-pink footer */
+.reviews{background:#fff!important;padding:52px 26px 62px!important}
+.review-heading{display:flex;justify-content:space-between;gap:10px;align-items:center;margin-bottom:18px}
+.review-heading .section-label{display:block;font-size:10px;font-weight:700;color:#FF568F;letter-spacing:.15em}
+.review-heading h2{font-size:23px!important;font-weight:750;letter-spacing:-.055em;margin:8px 0 5px}
+.review-heading p{font-size:11px;color:#8f8588;margin:0}
+.review-more{font-size:11px;color:#777;white-space:nowrap}
+.review-demo-label{font-size:10px;color:#a59b9e;margin:0 0 15px;line-height:1.6}
+.review-carousel{display:grid;grid-auto-flow:column;grid-auto-columns:72%;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding-bottom:5px}
+.review-carousel::-webkit-scrollbar{display:none}
+.review-item{min-width:0;scroll-snap-align:start}
+.review-picture{aspect-ratio:1/1;overflow:hidden;background:#fff2f6}
+.review-picture img{height:100%;width:100%;display:block;object-fit:cover}
+.review-detail{padding:13px 2px 8px}
+.review-stars{color:#FF568F;letter-spacing:2px;font-size:15px;line-height:1}
+.review-detail h3{font-size:14px;line-height:1.5;letter-spacing:-.045em;margin:9px 0 7px;font-weight:700}
+.review-detail p{color:#777;font-size:12px;line-height:1.7;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;margin:0}
+.review-author{display:block;margin-top:12px;color:#a89fa3;font-size:9px;letter-spacing:.09em}
+.footer{background:#FF568F!important;color:#fff!important;padding:48px 27px 56px!important}
+.footer-brand{padding-bottom:36px}
+.footer-brand img{width:162px;max-width:100%;height:auto;display:block}
+.footer-brand p{margin:16px 0 0;color:#fff!important;opacity:.92;font-size:12px}
+.footer-service{padding:25px 0 31px;border-top:1px solid #ffffff55;border-bottom:1px solid #ffffff55}
+.footer-kicker{display:block;font-size:10px;letter-spacing:.16em;font-weight:700;color:#fff;opacity:.8}
+.footer-service h2{font-size:26px;letter-spacing:-.055em;margin:11px 0 9px;font-weight:750}
+.footer-service p{font-size:12px!important;color:#fff!important;opacity:.86;line-height:1.8;margin:0}
+.footer-business{border-bottom:1px solid #ffffff55;padding:22px 0}
+.footer-business summary{list-style:none;font-size:13px;font-weight:700;display:flex;justify-content:space-between;align-items:center;cursor:pointer}
+.footer-business summary::-webkit-details-marker{display:none}
+.footer-business summary span{font-size:22px;font-weight:300;transition:transform .2s}
+.footer-business[open] summary span{transform:rotate(45deg)}
+.footer-business div{padding-top:15px;color:#fff;font-size:11px;line-height:1.75;opacity:.88}
+.footer-nav{display:flex;justify-content:space-between;gap:10px;padding:25px 0 20px!important;border:0!important}
+.footer-nav a{font-size:11px;color:#fff!important}
+.footer-copyright{color:#fff!important;font-size:11px!important;opacity:.95;margin:7px 0!important}
+.footer-demo{color:#fff!important;font-size:10px!important;opacity:.73;line-height:1.7;margin-top:22px!important}
+@media(min-width:761px){.review-carousel{grid-auto-columns:63%}}
+@media(max-width:390px){.reviews{padding:42px 20px 50px!important}.review-carousel{grid-auto-columns:78%}.footer{padding:42px 22px 50px!important}}
