@@ -51,3 +51,36 @@ body{background:#fafafa;color:var(--ink)}
 .story{background:#fff5f7}
 .reviews{background:#fdfbfc}
 @media(max-width:390px){.header-logo{width:136px}.header-logo img{width:132px}.main-nav{padding:0 12px}.main-nav a{font-size:10px}.cat-circle,.cat-all,.cat-apple,.cat-veg,.cat-food,.cat-life{width:49px;height:49px}.cat-circle svg{width:24px;height:24px}.hero{height:490px}}
+
+/* Reference width exploration: Onbrix-inspired broader mobile storefront.
+   520px is a working design target, not a verified measurement of Onbrix CSS. */
+@media(min-width:951px){
+  .site-frame{width:100%;max-width:1440px;display:flex;justify-content:center;margin:0 auto}
+  .store{width:520px;flex:0 0 520px;max-width:520px}
+  .left-promo{position:absolute;width:288px;height:310px;right:calc(50% + 320px);top:345px}
+}
+@media(min-width:761px) and (max-width:950px){
+  .site-frame{width:100%;display:flex;justify-content:center}
+  .store{width:520px;max-width:520px;flex:0 0 520px}
+  .left-promo{display:none}
+}
+@media(max-width:760px){
+  .site-frame{display:block;width:100%}
+  .store{width:100%;max-width:520px;margin:0 auto;flex:auto}
+  .left-promo{display:none}
+}
+@media(min-width:761px){
+  .hero{height:620px}
+  .hero-copy{bottom:65px;left:33px}
+  .hero-copy h1{font-size:36px}
+  .header{height:83px}
+  .main-nav{height:52px;padding-left:25px;padding-right:25px}
+  .main-nav a{font-size:12px}
+  .category-icons{padding:39px 25px 38px}
+  .cat-circle,.cat-all,.cat-apple,.cat-veg,.cat-food,.cat-life{width:66px;height:66px}
+  .cat-circle svg{width:30px;height:30px}
+  .product-section{padding-left:26px;padding-right:26px}
+  .product-row{grid-auto-columns:45%;gap:16px}
+  .two-grid{gap:18px}
+  .section-head h2{font-size:22px}
+}
