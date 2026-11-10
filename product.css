@@ -91,3 +91,36 @@
  .detail-brand-row{font-size:10px!important}
  .detail-price strong{font-size:21px!important}
 }
+
+
+/* Detail page premium finish */
+.detail-header{position:relative;z-index:5}
+.detail-header button,.detail-header a{transition:color .2s,background-color .2s;border-radius:4px}
+.detail-header button:hover,.detail-header a:hover{color:#FF568F;background:#fff2f7}
+.detail-hero{background:#fff5f8}
+.detail-hero img{object-position:center;display:block}
+.detail-img-mark{border-radius:2px;font-weight:750}
+.detail-purchase{padding-top:30px}
+.detail-purchase h1{word-break:keep-all;letter-spacing:-.05em}
+.detail-brand-row{gap:12px}
+.detail-social button{width:35px;height:35px;display:grid;place-items:center;border-radius:4px}
+.detail-social button:hover{background:#fff0f5;color:#FF568F}
+.detail-price{align-items:center;gap:12px}
+.detail-coupon{gap:18px}
+.detail-coupon button{border-radius:4px;transition:background .2s}
+.detail-coupon button:hover{background:#fff2f6}
+.detail-quality{border-radius:5px;padding:23px 20px}
+.detail-shipping{padding-bottom:10px}
+.detail-tabs a{transition:color .2s}
+.detail-tabs a:hover{color:#FF568F}
+.detail-content{padding-top:65px}
+.detail-content h2{font-weight:750}
+.detail-info-section{scroll-margin-top:62px}
+.detail-bottom{box-shadow:0 -6px 25px #32112012}
+.detail-bottom button{transition:background .2s,color .2s,filter .2s}
+.detail-bottom-buy:hover{filter:brightness(.95)}
+.detail-bottom-gift:hover{background:#fff1f6}
+.detail-modal-box{border-radius:7px}
+.detail-modal-box>button:last-child{border-radius:4px}
+.product-detail-page .search-panel{border-radius:7px}
+@media(max-width:390px){.detail-coupon{gap:10px}.detail-content{padding:50px 20px 0}}
