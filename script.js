@@ -1,0 +1,6 @@
+const menuBtn=document.querySelector('#menuBtn');const closeBtn=document.querySelector('#closeMenu');const drawer=document.querySelector('#drawer');const backdrop=document.querySelector('#backdrop');const toast=document.querySelector('#toast');let toastTimer;
+function toggleMenu(open){drawer.classList.toggle('open',open);drawer.setAttribute('aria-hidden',String(!open));backdrop.hidden=!open;document.body.style.overflow=open?'hidden':'';if(open)closeBtn.focus();else menuBtn.focus();}
+menuBtn.addEventListener('click',()=>toggleMenu(true));closeBtn.addEventListener('click',()=>toggleMenu(false));backdrop.addEventListener('click',()=>toggleMenu(false));document.addEventListener('keydown',e=>{if(e.key==='Escape'&&drawer.classList.contains('open'))toggleMenu(false)});
+document.querySelectorAll('.drawer a').forEach(a=>a.addEventListener('click',()=>toggleMenu(false)));
+function notify(){toast.textContent='현재 디자인 미리보기입니다. 구매 기능은 카페24 연결 후 제공됩니다.';toast.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>toast.classList.remove('show'),3200)}
+['searchBtn','cartBtn','bottomCart'].forEach(id=>document.getElementById(id).addEventListener('click',notify));
