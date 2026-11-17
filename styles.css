@@ -507,3 +507,9 @@ html{scroll-padding-top:20px}
 .superwa-header-logo .superwa-wordmark{font-family:"DM Sans","Noto Sans KR",sans-serif;color:#fff;display:block;font-size:24px;font-weight:800;letter-spacing:-.075em;line-height:1.05}
 .superwa-header-logo .superwa-since{display:block;align-self:flex-end;color:#fff;font-family:"DM Sans",sans-serif;font-size:8px;line-height:1;font-weight:700;letter-spacing:-.015em;margin-right:2px}
 @media(max-width:390px){.header .superwa-header-logo{width:138px!important;min-width:138px;max-width:138px;height:44px}.superwa-header-logo .superwa-wordmark{font-size:21px}.superwa-header-logo .superwa-since{font-size:7px}}
+
+
+/* Official SUPERWA vector lockup: preserve original artwork and its pink fill */
+.header .superwa-header-logo{width:172px!important;min-width:172px;max-width:172px;height:62px!important;background:transparent!important;display:flex!important;align-items:center!important;justify-content:flex-start!important;padding:0!important;overflow:visible}
+.header .superwa-header-logo img{display:block;width:172px!important;height:55px!important;max-width:172px!important;max-height:55px!important;object-fit:contain;object-position:left center}
+@media(max-width:390px){.header .superwa-header-logo{width:149px!important;min-width:149px;max-width:149px;height:56px!important}.header .superwa-header-logo img{width:149px!important;height:49px!important;max-width:149px!important;max-height:49px!important}}
