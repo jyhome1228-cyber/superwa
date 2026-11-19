@@ -542,3 +542,33 @@ html{scroll-padding-top:20px}
  .header-masidda-logo,.header-masidda-logo img{width:70px}
  .header{padding-left:10px!important;padding-right:10px!important}
 }
+
+
+/* Balanced SUPERWA / MASIDDA co-brand proportions */
+.header-brand-lockup{gap:12px!important;align-items:center!important}
+.header .header-brand-lockup .superwa-header-logo{
+ width:120px!important;min-width:120px!important;max-width:120px!important;height:44px!important;
+ display:flex!important;align-items:center!important;justify-content:center!important
+}
+.header .header-brand-lockup .superwa-header-logo img{
+ width:120px!important;max-width:120px!important;height:44px!important;max-height:44px!important;
+ object-fit:contain!important;object-position:center!important
+}
+.header-brand-divider{height:25px!important;background:#E7DDE1!important}
+.header-masidda-logo{width:106px!important;height:44px!important;display:flex!important;align-items:center!important;justify-content:center!important}
+.header-masidda-logo img{width:106px!important;max-width:106px!important;height:auto!important;max-height:36px!important;object-fit:contain!important}
+@media(max-width:440px){
+ .header-brand-lockup{gap:9px!important}
+ .header .header-brand-lockup .superwa-header-logo{width:108px!important;min-width:108px!important;max-width:108px!important;height:40px!important}
+ .header .header-brand-lockup .superwa-header-logo img{width:108px!important;max-width:108px!important;height:40px!important;max-height:40px!important}
+ .header-masidda-logo{width:96px!important;height:40px!important}
+ .header-masidda-logo img{width:96px!important;max-width:96px!important;max-height:32px!important}
+ .header-brand-divider{height:22px!important}
+}
+@media(max-width:350px){
+ .header-brand-lockup{gap:7px!important}
+ .header .header-brand-lockup .superwa-header-logo{width:98px!important;min-width:98px!important;max-width:98px!important}
+ .header .header-brand-lockup .superwa-header-logo img{width:98px!important;max-width:98px!important}
+ .header-masidda-logo{width:85px!important}
+ .header-masidda-logo img{width:85px!important;max-width:85px!important}
+}
